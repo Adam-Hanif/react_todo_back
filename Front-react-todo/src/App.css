@@ -1,0 +1,159 @@
+body {
+  background-image: url(./img_fon.jpg);
+  background-repeat: no-repeat;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  max-width: 500px;
+  margin: auto;
+}
+.todo_list {
+  margin-top: 150px;
+}
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+.loading {
+  font-size: 50px;
+  color: #fff;
+  margin-top: 50%;
+  margin-left: 40%;
+}
+.todo li {
+  display: flex;
+}
+.h1_todo {
+  text-align: center;
+  color: #fff;
+}
+.h1_todo span {
+  color: rgb(173, 104, 238);
+}
+.form {
+  display: flex;
+  margin-bottom: 30px;
+}
+.input_todo {
+  flex: 1;
+  border: solid 2px blueviolet;
+  border-radius: 5px;
+  padding: 0 10px;
+  margin-right: 10px;
+}
+.btn_todo {
+  padding: 10px 25px;
+  background-color: blueviolet;
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+  font-size: 19px;
+  cursor: pointer;
+}
+.btn_todo_disabled {
+  padding: 10px 25px;
+  background-color: blueviolet;
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+  font-size: 19px;
+  cursor: no-drop;
+  opacity: 0.5;
+}
+.delete_todo {
+  padding: 5px;
+  color: rgb(180, 0, 0);
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 1;
+}
+.todo_checkbox {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}
+.text_todo {
+  display: flex;
+  margin-left: 20px;
+  color: rgb(255, 255, 255);
+  font-size: 19px;
+  font-style: italic;
+}
+.text_todo_favorite {
+  display: flex;
+  margin-left: 20px;
+  color: rgb(255, 255, 255);
+  font-size: 19px;
+  font-style: italic;
+  text-decoration: line-through solid 3px #940303;
+}
+.block_gif {
+  text-align: center;
+  margin-top: 250px;
+}
+.text_gif {
+  color: #fff;
+  font-size: 40px;
+  margin-left: 22px;
+}
+.block_form {
+  display: flex;
+  justify-content: center;
+}
+.signin_form {
+  margin-top: 185px;
+  width: 300px;
+  border-radius: 20px;
+}
+.login_input {
+  width: 95%;
+  padding: 7px;
+  font-size: 15px;
+  border-radius: 10px;
+  border: solid 2px blueviolet;
+  font-family: "Courier New", Courier, monospace;
+}
+.password_input {
+  width: 95%;
+  font-size: 15px;
+  padding: 7px;
+  border-radius: 10px;
+  border: solid 2px blueviolet;
+  margin: 20px 0;
+  font-family: "Courier New", Courier, monospace;
+}
+.input_btn {
+  display: flex;
+  justify-content: space-between;
+}
+.signin_button {
+  font-family: "Courier New", Courier, monospace;
+
+  border: none;
+  background-color: blueviolet;
+  padding: 7px 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.signin_btn a {
+  text-decoration: none;
+  color: #fff;
+}
+.err_login {
+  color: #fff;
+  font-size: 24px;
+  filter: drop-shadow(0px 0px 5px red);
+  text-align: center;
+  margin-top: 100px;
+}
